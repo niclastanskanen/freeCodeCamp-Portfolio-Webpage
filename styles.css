@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#welcome-section {
+    padding-top: 4rem;    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media (max-width: 400px) {
+    nav {
+        justify-content: center;
+    }
+}
